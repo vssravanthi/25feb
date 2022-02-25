@@ -1,0 +1,23 @@
+n=int(input())
+l=[]
+for i in range(n):
+    x=int(input())
+    l.append(x)
+t=[]
+for i in range(n):
+    if l[i]>=0:
+        t.append(l[i])
+s=[]
+for i in range (n):
+    if l[i]<0:
+        s.append(l[i])
+    a=[]
+    a=t+s
+print(a)
+output:
+4
+-1
+2
+3
+-4
+[2, 3, -1, -4]
